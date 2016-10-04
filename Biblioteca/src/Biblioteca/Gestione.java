@@ -118,6 +118,7 @@ public class Gestione {
 					cd-=1;
 					lp.setCopieDisp(cd);
 					Date data=new Date();//inizializzo alla data in cui ho effettuato il prestito Date(0) darebbe 1 gennaio 1970
+					
 					Prestito p=new Prestito(data,utemp,lp);
 					utemp.InserisciPrestito(p);
 					
